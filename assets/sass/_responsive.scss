@@ -1,0 +1,48 @@
+@media only screen and (min-width: 997px) and (max-width: 1920px) {
+
+    .top-picks .feature:nth-child(2) {
+      @include span-col(6);
+      grid-row: 2/4;
+    }
+    
+    .top-picks .feature:nth-child(3) {
+      @include span-col(6);
+      grid-row: 2/3;
+    }
+    
+    .top-picks .feature:nth-child(4) {
+      @include span-col(6);
+      grid-row: 3/4;
+    }
+
+    /* gallery */
+
+    .gallery figure:nth-child(3) {
+      @include span-col(5);
+    }
+    
+    .gallery figure:nth-child(4) {
+      @include span-col(4);
+    }
+    
+    .gallery figure:nth-child(5) {
+      @include span-col(3);
+    }
+
+    /* product items */
+    .product-item {
+        @include span-col(4);
+        background-color: red;
+    }
+
+    .product-item:nth-child(odd) {
+        @include span-col(4);
+        background-color: yellow;
+    }
+
+    /* User Comment */ 
+    .user-post {
+        @include span-col(6);
+    }
+
+  }

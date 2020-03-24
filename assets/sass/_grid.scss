@@ -10,12 +10,12 @@
   grid-template-rows: repeat($repeat, $fr);
 }
 
-@mixin span-col($span) {
-  grid-columns: span ($span);
+@mixin span-col($c-span) {
+  grid-column: span ($c-span);
 }
 
-@mixin span-row($repeat) {
-  grid-rows: span ($span);
+@mixin span-row($r-span) {
+  grid-rows: span ($r-span);
 }
 
 .slider {
@@ -71,4 +71,57 @@
   width: 100%;
 }
 
+/* top picks */
+ 
+.top-picks {
+  grid-auto-rows: auto;
+}
+
+.col-grow {
+  @include span-col(12);
+}
+
+.grid {
+  @include grid-col(12, 1fr);
+}
+
+.gallery {
+  background-color: $background-secondary;
+}
+
+.gallery h2 {
+  @include span-col(11); 
+}
+
+.controls {
+  @include span-col(1); 
+}
+
+.comments {
+  background-color: $background-secondary;
+}
+
+.comments h2 {
+  @include span-col(11); 
+}
+
+.user-info figure {
+  @include span-col(4);
+}
+
+.user-info hgroup {
+  @include span-col(8);
+}
+
+footer {
+  @include flex(wrap);
+  @include text(center);
+  background-color: $background-main;
+}
+
+footer h5,
+footer ul,
+footer span {
+  width: 100%;
+}
 
