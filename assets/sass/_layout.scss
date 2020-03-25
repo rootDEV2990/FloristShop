@@ -11,14 +11,22 @@
     line-height: 40px;
 }
 
-footer ul {
-    display: flex;
-    justify-content: center;
-    width: 100%;;
+footer {
+    grid-gap: 10px;
 }
 
-.fa-sass {
-    font-size: 2.5em;
+.signature {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 1.5em;
+}
+
+footer .sitemap {
+    grid-column: span 6;
+    text-align: left;
+}
+
+footer div:nth-child(3) {
+    @include flex(wrap);
 }
 
 h1 {
@@ -157,5 +165,56 @@ aside {
     background-color: $background-alt;
 }
 
+
+/* products page */
+
+.amout-opt {
+    display: flex;
+}
+
+.amout-opt button {
+    border-radius: 5000px;
+    width: 4em;
+    margin: 0 .5em;
+}
+
+.item-opt div {
+    @include span-col(6);
+}
+
+.amout-opt .tag {
+    background-color: $background-main;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    color: $secondary-font-color;
+}
+
+.item-details {
+    padding: 3em 5em 0 5em;
+}
+
+.item-details img {
+    width: 90%;
+}
+
+/* map n footer */
+
+iframe {
+    grid-column: span 12;
+    width: 100%;
+}
+
+.btn {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: $secondary-font-color;
+    background-color: $btn-primary-color;
+    padding: .4em 2em;
+    border-radius: 5000px;
+}
 
 

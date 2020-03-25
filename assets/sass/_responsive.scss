@@ -61,7 +61,24 @@
     .shop section:nth-child(2) {
         @include span-col(9);
     }
+
+    /* detils pg */
+
+    .item-details div {
+      grid-column: span 6;
+      margin-top: 3em;
+    }
+
+    .item-details section {
+        grid-column: span 6;
+        margin-top: 3em;
+    }
+
+    /* footer */
     
+    footer div {
+      grid-column: span 4;
+    }
 
     .pb-2 {
       padding-bottom: 1.3em;
@@ -165,6 +182,22 @@
       padding-bottom: 2em;
     }
 
+    /* details pg */
+
+    .item-details div {
+      grid-column: span 12;
+      margin-top: 3em;
+    }
+    
+    .item-details section {
+        grid-column: span 12;
+        margin-top: 3em;
+    }
+
+    footer div {
+      grid-column: span 4;
+    }
+
     .sticky-scroll {
       height: 100vh;  
     }
@@ -244,3 +277,32 @@
 
 
   }
+
+
+  @media only screen and (min-width: 460px) and (max-width: 670px) {
+    footer div {
+      grid-column: span 12;
+    }
+
+    footer .sitemap {
+      grid-column: span 12;
+      text-align: center;
+    }
+  }
+
+
+  @media only screen and (min-width: 320px) and (max-width: 460px) {
+
+
+footer div {
+  grid-column: span 6;
+}
+
+footer .pt-3 {
+  padding-top: 0;
+}
+
+.signature {
+  margin-top: -70px;
+}
+}
