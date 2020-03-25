@@ -299,6 +299,11 @@
       margin-top: 0;
       margin-bottom: 1em;
     }
+    
+    .slider {
+      background-size: 150% 75%;
+      background-position: 65% 100%;
+    }
   }
 
 
@@ -309,11 +314,19 @@ footer div {
   grid-column: span 6;
 }
 
+footer div:nth-child(1) {
+  margin-top: 0;
+}
+
 footer .pt-3 {
   padding-top: 0;
 }
 
 .signature {
   margin-top: -70px;
+}
+.slider {
+  background-size: 175% 75%;
+  background-position: 65% 100%;
 }
 }
