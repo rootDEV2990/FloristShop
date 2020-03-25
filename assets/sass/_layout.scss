@@ -1,0 +1,161 @@
+.logo img {
+    width: 25%;;
+}
+
+.product-item button {
+    border-radius: 5000px;
+    padding: 0 1em;
+}
+
+.price {
+    line-height: 40px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;;
+}
+
+.fa-sass {
+    font-size: 2.5em;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Euphoria Script', cursive;
+    color: #fff;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Allura', cursive;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Allura', cursive;
+}
+
+h4 {
+    font-size: 4rem;
+    font-family: 'Allura', cursive;
+}
+
+.product-item {
+    text-align: center;
+}
+
+.user-post {
+    background-color: #ffffff;
+}
+
+.icon {
+    height: 22px;
+    width: 22px;
+}
+
+h5 .fa-heart {
+    text-align: left;
+    width: 100%;
+}
+
+.feature span {
+    @include circle(60px);
+}
+
+.product-item i {
+    color: $accent-font-color;
+}
+
+.col-grow button {
+    background-color: $btn-primary-color;
+    border-radius: 5000px;
+    padding: 1em 3em;
+    color: $secondary-font-color;
+}
+
+.eshop {
+    background-color: $background-main;
+}
+
+.sticky-scroll {
+    height: calc(100vh - 50px);
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.shop h2 {
+    font-size: 2.75em;
+}
+
+fieldset {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+fieldset label {
+    width: 100%;
+}
+
+fieldset input {
+    width: 43%;
+    margin-left: 3px;
+}
+
+.color-filter {
+    display: flex;
+}
+
+.fieldset h6 {
+    width: 100%;
+}
+
+.category-filter-title {
+    width: 100%;
+}
+
+
+.checkbox {
+    width: 10%;
+    margin-bottom: 15px;
+}
+
+.category-label {
+    width: 80%;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+
+.color-filter li {
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    border: 1px solid rgb(170, 170, 170);
+}
+
+.color-filter li:nth-child(1) {
+    background-color: $color-filters-1;
+}
+
+.color-filter li:nth-child(2) {
+    background-color: $color-filters-2;
+}
+
+.color-filter li:nth-child(3) {
+    background-color: $color-filters-3;
+}
+
+.color-filter li:nth-child(4) {
+    background-color: $color-filters-4;
+}
+
+aside {
+    background-color: $background-alt;
+}
+
+
+

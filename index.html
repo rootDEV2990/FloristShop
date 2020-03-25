@@ -5,13 +5,15 @@
         <title>eShop - Responsive Florist Shop</title>
         <!-- Reset CSS for universal browser -->
         <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <!-- Font import from google -->
+        <link href="https://fonts.googleapis.com/css?family=Allura|Euphoria+Script&display=swap" rel="stylesheet"> 
         <!-- Style CSS for universal browser -->
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
     <body>
         <header class="menu-bar">
             <figure class="logo">
-                <h2>logo</h2>
+                <img src="./assets/img/logo.png">
             </figure>
             <nav>
                 <ul class="nav">
@@ -19,10 +21,10 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li class="nav-i">
-                        <a href="index.html">eShop</a>
+                        <a href="eshop.html">eShop</a>
                     </li>
                     <li class="nav-i">
-                        <a href="index.html">Cart</a>
+                        <a href="index.html"><i class="fas fa-shopping-cart"></i></a>
                     </li>
                 </ul>
             </nav>
@@ -31,55 +33,55 @@
             <h6 class="clip">Welcome section with sign up for news letter button.</h6>
            <div>
                 <header>
-                    <h2>Sign up for our News letter</h2>
+                    <h1>Sign up for our News letter</h1>
                 </header>
-                <button>Sign up</button>
+                <button class="mt-3">Sign up</button>
             </div>
         </section>
-        <section class="top-picks grid">
-            <h2 class="col-grow">Top Picks</h2>
+        <section class="top-picks grid responsive-p pt-5">
+            <h2 class="col-grow  text-center-sm pb-2">Top Picks</h2>
             <div class="feature">
                 <header>
                     <hgroup>
-                        <h2>Item Name 1</h2>
-                        <h5>Price</h5>
+                        <h3>Item Name 1</h3>
+                        <h5>$19.99 <i class="fas fa-shopping-cart"></i></h5>
                     </hgroup>
-                    <span>M</span>
-               </header>
-                <figure>
+                    <span>-25%</span>
+                </header>
+                <figure class="text-center-sm" >
                     <img src="./assets/img/demo-1.png" alt="Red Roses in elegant vase.">
                 </figure>
             </div>
             <div class="feature">
                 <header>
                     <hgroup>
-                        <h2>Item Name 1</h2>
-                        <h5>Price</h5>
+                        <h3>Item Name 1</h3>
+                        <h5>$19.99 <i class="fas fa-shopping-cart"></i></h5>
                     </hgroup>
-                    <span>M</span>
+                    <span>-45%</span>
                </header>
-                <figure>
+                <figure class="text-center-sm" >
                     <img src="./assets/img/demo-2.png" alt="Red and yellow roses in elegant vase.">
                 </figure>
             </div>
             <div class="feature">
                 <header>
                     <hgroup>
-                        <h2>Item Name 1</h2>
-                        <h5>Price</h5>
+                        <h3>Item Name 1</h3>
+                        <h5>$19.99 <i class="fas fa-shopping-cart"></i></h5>
                     </hgroup>
-                    <span>M</span>
+                    <span>-15%</span>
                </header>
-                <figure>
+                <figure class="text-center-sm" >
                     <img src="./assets/img/demo-3.png" alt="Red and Yellow Roses in elegant vase.">
                 </figure>
             </div>
         </section>
-        <section class="gallery grid">
-            <h2 class="col-grow">Bouquet Gallery</h2>
-            <nav class="controls">
-                <a> < </a>
-                <a> > </a>
+        <section class="gallery grid responsive-p text-center-sm pt-5">
+            <h2 class="col-grow pb-2 white">Bouquet</h2>
+            <nav class="controls white">
+                <a>&lt;</a>
+                <a>&gt;</a>
             </nav>
             <figure>
                 <img src="./assets/img/demo-6.png" alt="Bouquet">
@@ -90,139 +92,143 @@
             <figure>
                 <img src="./assets/img/demo-4.png" alt="Bouquet">
             </figure>
-            <div class="controls">
-                <span>&#8226;</span>
-                <span>&#8226;</span>
+            <div class="controls white">
                 <span>&#8226;</span>
                 <span>&#8226;</span>
             </div>
         </section>
 
-        <section class="products grid">
-            <h2 class="col-grow">Producs</h2>
+        <section class="products grid responsive-p pt-5">
+            <h2 class="col-grow text-center-sm pb-2">Producs</h2>
             <div class="product-item">
-                <span><i></i></span>
+                <h5><i class="far fa-heart"></i></h5>
                 <figure>
                     <img src="./assets/img/product-1.png" alt="Product item 1 disc.">
                 </figure>
-                <button></button>
-                <button></button>
-                <button></button>
-                <span>Price<i></i></span>
+                <button>9</button>
+                <button>15</button>
+                <button>21</button>
+                <br>
+                <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
             </div>
             <div class="product-item">
-                <span><i></i></span>
+                <h5><i class="far fa-heart"></i></h5>
                 <figure>
                     <img src="./assets/img/product-2.png" alt="Product item 2 disc.">
                 </figure>
-                <button></button>
-                <button></button>
-                <button></button>
-                <span>Price<i></i></span>
+                <button>9</button>
+                <button>15</button>
+                <button>21</button>
+                <br>
+                <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
             </div>
             <div class="product-item">
-                <span><i></i></span>
+                <h5><i class="far fa-heart"></i></h5>
                 <figure>
                     <img src="./assets/img/product-3.png" alt="Product item 3 disc.">
                 </figure>
-                <button></button>
-                <button></button>
-                <button></button>
-                <span>Price<i></i></span>
+                <button>9</button>
+                <button>15</button>
+                <button>21</button>
+                <br>
+                <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
             </div>
             <div class="product-item">
-                <span><i></i></span>
+                <h5><i class="far fa-heart"></i></h5>
                 <figure>
                     <img src="./assets/img/product-4.png" alt="Product item 4 disc.">
                 </figure>
-                <button></button>
-                <button></button>
-                <button></button>
-                <span>Price<i></i></span>
+                <button>9</button>
+                <button>15</button>
+                <button>21</button>
+                <br>
+                <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
             </div>
             <div class="product-item">
-                <span><i></i></span>
+                <h5><i class="far fa-heart"></i></h5>
                 <figure>
                     <img src="./assets/img/product-5.png" alt="Product item 5 disc.">
                 </figure>
-                <button></button>
-                <button></button>
-                <button></button>
-                <span>Price<i></i></span>
+                <button>9</button>
+                <button>15</button>
+                <button>21</button>
+                <br>
+                <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
             </div>
             <div class="product-item">
-                <span><i></i></span>
+                <h5><i class="far fa-heart"></i></h5>
                 <figure>
                     <img src="./assets/img/product-6.png" alt="Product item 6 disc.">
                 </figure>
-                <button></button>
-                <button></button>
-                <button></button>
-                <span>Price<i></i></span>
+                <button>9</button>
+                <button>15</button>
+                <button>21</button>
+                <br>
+                <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
             </div>
-            <div class="col-grow t-center">
+            <div class="col-grow t-center mt-4 pt-2 mb-4">
                 <button>See More</button>
             </div>
         </section>
-        <section class="comments grid">
-            <h2 class="col-grow">Customer Comments</h2>
-            <nav class="controls">
-                <a> < </a>
-                <a> > </a>
+        <section class="comments grid responsive-p pt-5">
+            <h2 class="col-grow text-center-sm pb-2 white">Customers</h2>
+            <nav class="controls white">
+                <a>&lt;</a>
+                <a>&gt;</a>
             </nav>
-            <article class="user-post">
+            <article class="user-post p-lg-5 mr-2 ml-2 mt-2 mb-2">
                 <div class="user-info grid">
-                    <figure>
+                    <figure class="ml-5 mt-3 text-center-sm">
                         <img src="./assets/img/user-1.png" alt="User_img 1">
                     </figure>
-                    <hgroup>
-                        <h2>User Name</h2>
-                        <h3>Quote from Article</h3>
-                        <span><i></i><i></i></span>
+                    <hgroup class="mt-4 text-center-sm">
+                        <h4>User Name</h4>
+                        <h5>Quote from Article</h5>
+                        <span><img class="icon" src="./assets/img/icon-vk.png"><img class="icon" src="./assets/img/icon-f.png"></span>
                     </hgroup>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam nemo, placeat aperiam eveniet nisi quia odit officiis vero cum deserunt numquam repudiandae cumque! Ullam, quas? Fugiat nemo placeat cum, quidem quas maiores voluptatibus qui autem, necessitatibus vitae fuga animi hic assumenda omnis similique ullam quibusdam iusto iste, dolor sunt .</p>
+                <p class="pl-5 pr-4 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam nemo, placeat aperiam eveniet nisi quia odit officiis vero cum deserunt numquam repudiandae cumque! Ullam, quas? Fugiat nemo placeat cum, quidem quas maiores voluptatibus qui autem, necessitatibus vitae fuga animi hic assumenda omnis similique ullam quibusdam iusto iste, dolor sunt .</p>
             </article>
-            <article class="user-post">
+            <article class="user-post p-lg-5 ml-2 mr-2 mt-2 mb-2">
                 <div class="user-info grid">
-                    <figure>
+                    <figure class="ml-5 mt-3 text-center-sm">
                         <img src="./assets/img/user-2.png" alt="User_img 2">
                     </figure>
-                    <hgroup>
-                        <h2>User Name</h2>
-                        <h3>Quote from Article</h3>
-                        <span><i></i><i></i></span>
+                    <hgroup class="mt-4 text-center-sm">
+                        <h4>User Name</h4>
+                        <h5>Quote from Article</h5>
+                        <span><img class="icon" src="./assets/img/icon-vk.png"><img class="icon" src="./assets/img/icon-f.png"></span>
                     </hgroup>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam nemo, placeat aperiam eveniet nisi quia odit officiis vero cum deserunt numquam repudiandae cumque! Ullam, quas? Fugiat nemo placeat cum, quidem quas maiores voluptatibus qui autem, necessitatibus vitae fuga animi hic assumenda omnis similique ullam quibusdam iusto iste, dolor sunt .</p>
+                <p class="pl-5 pr-4 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam nemo, placeat aperiam eveniet nisi quia odit officiis vero cum deserunt numquam repudiandae cumque! Ullam, quas? Fugiat nemo placeat cum, quidem quas maiores voluptatibus qui autem, necessitatibus vitae fuga animi hic assumenda omnis similique ullam quibusdam iusto iste, dolor sunt .</p>
             </article>
-            <div class="controls">
-                <span>&#8226;</span>
-                <span>&#8226;</span>
+            <div class="controls white">
                 <span>&#8226;</span>
                 <span>&#8226;</span>
             </div>
         </section>
-        <footer>
-            <h5>Created by rootDEV2990</h5>
+        <footer class="p-5">
+            <h5 class="pt-1">Made with <i class="fab fa-sass"></i> and Coffee <i class="fas fa-coffee"></i></h5>
+
+            <h6>Created by rootDEV2990</h6>
             <ul>
-                <li>
+                <li class="p-2">
                     <a href=""><i class="fab fa-github"></i></a>
                 </li>
-                <li>
-                    <a href=""><i class="fab fa-twitter"></i></a>
+                <li class="p-2">
+                    <a href=""><i class="fas fa-globe"></i></a>
                 </li>
-                <li>
+                <li class="p-2">
                     <a href=""><i class="fab fa-linkedin"></i></a>
                 </li>
-                <li>
-                    <a href=""><i class="fab fa-facebook"></i></a>
+                <li class="p-2">
+                    <a href=""><i class="fab fa-twitter"></i></i></a>
                 </li>
-            </ul>
-            <span>Made with SASS and Coffee</span>
+            </ul>            
         </footer>
 
         
-
+        <!-- Social icons from fontawesome -->
+	    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </body>
 </html>

@@ -31,22 +31,24 @@
 
 .slider header {
   width: 100%;
-  height: 50px;;
+  height: 100%;
+  text-align: center;
 }
 
 .slider button {
-  width: 50%;
-  margin: auto;
+  width: 85%;
+  margin: 1em auto 0;
   border-radius: 5000px;
   background-color: $btn-primary-color;
   border: 1px solid $btn-primary-color;
   color: #fff;
+  height: 50px;
 }
 
 .slider div {
   @include grid-row(2, 1fr);
-  padding: 200px 0;
-  width: 45%;
+  padding: 150px 0;
+  width: 38%;
 }
 
 .slider h2 {
@@ -65,6 +67,10 @@
   justify-content: flex-end;
 }
 
+.nav-i a {
+  color: $secondary-font-color;
+}
+
 .nav-i,
 .logo {
   padding: 1rem 1.2rem;
@@ -72,6 +78,11 @@
 
 .slider h2 {
   width: 100%;
+}
+
+.feature header {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* top picks */
@@ -87,6 +98,7 @@
 .grid {
   @include grid-col(12, 1fr);
   grid-auto-rows: auto;
+  grid-gap: 10px;
 }
 
 .gallery {
@@ -121,11 +133,16 @@ footer {
   @include flex(wrap);
   @include text(center);
   background-color: $background-main;
+  color: $secondary-font-color;
+}
+
+footer i {
+  color: $secondary-font-color;
 }
 
 footer h5,
 footer ul,
-footer span {
+footer h6 {
   width: 100%;
 }
 

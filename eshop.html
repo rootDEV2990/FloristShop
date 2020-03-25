@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+        <title>eShop - Responsive Florist Shop</title>
+        <!-- Reset CSS for universal browser -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <!-- Font import from google -->
+        <link href="https://fonts.googleapis.com/css?family=Allura|Euphoria+Script&display=swap" rel="stylesheet"> 
+        <!-- Style CSS for universal browser -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    </head>
+    <body>
+        <header class="menu-bar eshop">
+            <figure class="logo">
+                <img src="./assets/img/logo.png">
+            </figure>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-i ">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-i">
+                        <a href="eshop.html">eShop</a>
+                    </li>
+                    <li class="nav-i">
+                        <a href="index.html"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="flower-eshop">
+            <div class="shop grid">
+                <aside class="pl-4 pr-4" style="background-color: rgb(216, 216, 216);">
+                    <h2 class="mt-4">Products</h2>
+                    <form>
+                        <fieldset>
+                            <label class="pt-3 pb-3">Filter</label>
+                            <div class="slider-bar">
+                                <input type="range" min="1" max="100" value="50" class="slider-input" id="myRange">
+                            </div>
+                            <input class="text-filter" type="text" placeholder="Min Price">
+                            <input class="text-filter" type="text" placeholder="Max Price">
+                            <label class="pt-3 pb-3">Color</label>
+                            <ul class="color-filter">
+                                <li class="p-4"></li>
+                                <li class="p-4"></li>
+                                <li class="p-4"></li>
+                                <li class="p-4"></li>
+                            </ul>
+                            <h6 class="category-filter-title pt-3 pb-3">Style</h6>
+                            <br>
+                            <input class="checkbox" type="checkbox" name="type_1">
+                            <label class="category-label" for="type_1">Type 1</label>
+                            <br>                            
+                            <input class="checkbox" type="checkbox" name="type_2">
+                            <label class="category-label" for="type_2">Type 2</label>
+                            <br>
+                            <input class="checkbox" type="checkbox" name="type_3">
+                            <label class="category-label" for="type_3">Type 3</label>
+                            <br>
+                            <input class="checkbox" type="checkbox" name="type_4">
+                            <label class="category-label" for="type_4">Type 4</label>
+                            <br>
+                            <h6 class="category-filter-title pt-3 pb-3">Accessories</h6>
+                            <br>
+                            <input class="checkbox" type="checkbox" name="vase">
+                            <label class="category-label" for="vase">Vase</label>
+                            <br>                            
+                            <input class="checkbox" type="checkbox" name="ribbons">
+                            <label class="category-label" for="ribbons">Ribbons</label>
+                            <br>
+                            <input class="checkbox" type="checkbox" name="center_pieces">
+                            <label class="category-label" for="center_pieces">Center Pieces</label>
+                            <br>
+                            <div class="col-grow t-center mt-4 pt-2 mb-4">
+                                <button>Search</button>
+                            </div>  
+                        </fieldset>
+                    </form>
+                </aside>
+                <section class="products grid responsive-p pt-5 mt-5 sticky-scroll">
+                    <h2 class="clip col-grow text-center-sm pb-2">Producs</h2>
+                    <div class="product-item">
+                        <h5><i class="far fa-heart"></i></h5>
+                        <figure>
+                            <img src="./assets/img/product-1.png" alt="Product item 1 disc.">
+                        </figure>
+                        <button>9</button>
+                        <button>15</button>
+                        <button>21</button>
+                        <br>
+                        <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
+                    </div>
+                    <div class="product-item">
+                        <h5><i class="far fa-heart"></i></h5>
+                        <figure>
+                            <img src="./assets/img/product-2.png" alt="Product item 2 disc.">
+                        </figure>
+                        <button>9</button>
+                        <button>15</button>
+                        <button>21</button>
+                        <br>
+                        <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
+                    </div>
+                    <div class="product-item">
+                        <h5><i class="far fa-heart"></i></h5>
+                        <figure>
+                            <img src="./assets/img/product-3.png" alt="Product item 3 disc.">
+                        </figure>
+                        <button>9</button>
+                        <button>15</button>
+                        <button>21</button>
+                        <br>
+                        <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
+                    </div>
+                    <div class="product-item">
+                        <h5><i class="far fa-heart"></i></h5>
+                        <figure>
+                            <img src="./assets/img/product-4.png" alt="Product item 4 disc.">
+                        </figure>
+                        <button>9</button>
+                        <button>15</button>
+                        <button>21</button>
+                        <br>
+                        <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
+                    </div>
+                    <div class="product-item">
+                        <h5><i class="far fa-heart"></i></h5>
+                        <figure>
+                            <img src="./assets/img/product-5.png" alt="Product item 5 disc.">
+                        </figure>
+                        <button>9</button>
+                        <button>15</button>
+                        <button>21</button>
+                        <br>
+                        <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
+                    </div>
+                    <div class="product-item">
+                        <h5><i class="far fa-heart"></i></h5>
+                        <figure>
+                            <img src="./assets/img/product-6.png" alt="Product item 6 disc.">
+                        </figure>
+                        <button>9</button>
+                        <button>15</button>
+                        <button>21</button>
+                        <br>
+                        <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
+                    </div>
+                    <div class="col-grow t-center mt-4 pt-2 mb-4 more-btn">
+                        <button>See More</button>
+                    </div>
+                </section>
+            </div>
+            <section class="comments grid responsive-p pt-5">
+                <h2 class="col-grow text-center-sm pb-2 white">Customers</h2>
+                <nav class="controls white">
+                    <a>&lt;</a>
+                    <a>&gt;</a>
+                </nav>
+                <article class="user-post p-lg-5 mr-2 ml-2 mt-2 mb-2">
+                    <div class="user-info grid">
+                        <figure class="ml-5 mt-3 text-center-sm">
+                            <img src="./assets/img/user-1.png" alt="User_img 1">
+                        </figure>
+                        <hgroup class="mt-4 text-center-sm">
+                            <h4>User Name</h4>
+                            <h5>Quote from Article</h5>
+                            <span><img class="icon" src="./assets/img/icon-vk.png"><img class="icon" src="./assets/img/icon-f.png"></span>
+                        </hgroup>
+                    </div>
+                    <p class="pl-5 pr-4 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam nemo, placeat aperiam eveniet nisi quia odit officiis vero cum deserunt numquam repudiandae cumque! Ullam, quas? Fugiat nemo placeat cum, quidem quas maiores voluptatibus qui autem, necessitatibus vitae fuga animi hic assumenda omnis similique ullam quibusdam iusto iste, dolor sunt .</p>
+                </article>
+                <article class="user-post p-lg-5 ml-2 mr-2 mt-2 mb-2">
+                    <div class="user-info grid">
+                        <figure class="ml-5 mt-3 text-center-sm">
+                            <img src="./assets/img/user-2.png" alt="User_img 2">
+                        </figure>
+                        <hgroup class="mt-4 text-center-sm">
+                            <h4>User Name</h4>
+                            <h5>Quote from Article</h5>
+                            <span><img class="icon" src="./assets/img/icon-vk.png"><img class="icon" src="./assets/img/icon-f.png"></span>
+                        </hgroup>
+                    </div>
+                    <p class="pl-5 pr-4 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam nemo, placeat aperiam eveniet nisi quia odit officiis vero cum deserunt numquam repudiandae cumque! Ullam, quas? Fugiat nemo placeat cum, quidem quas maiores voluptatibus qui autem, necessitatibus vitae fuga animi hic assumenda omnis similique ullam quibusdam iusto iste, dolor sunt .</p>
+                </article>
+                <div class="controls white">
+                    <span>&#8226;</span>
+                    <span>&#8226;</span>
+                </div>
+            </section>
+        </main>
+        <footer class="p-5">
+            <h5 class="pt-1">Made with <i class="fab fa-sass"></i> and Coffee <i class="fas fa-coffee"></i></h5>
+
+            <h6>Created by rootDEV2990</h6>
+            <ul>
+                <li class="p-2">
+                    <a href=""><i class="fab fa-github"></i></a>
+                </li>
+                <li class="p-2">
+                    <a href=""><i class="fas fa-globe"></i></a>
+                </li>
+                <li class="p-2">
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="p-2">
+                    <a href=""><i class="fab fa-twitter"></i></i></a>
+                </li>
+            </ul>            
+        </footer>
+
+        
+        <!-- Social icons from fontawesome -->
+	    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </body>
+</html>
