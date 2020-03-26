@@ -236,7 +236,7 @@ aside {
 }
 
 .item-details {
-  padding: 3em 5em 0 5em;
+  padding: 4.5em 5em 0 5em;
 }
 
 .item-details img {
@@ -276,6 +276,13 @@ iframe {
   @include circle(15px);
 
   background-color: $btn-primary-color;
+}
+
+.heart-nav {
+  @include circle(15px);
+
+  background-color: silver;
+  margin-right: 15px;
 }
 
 .top-picks i {
