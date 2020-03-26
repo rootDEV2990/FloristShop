@@ -1,9 +1,9 @@
 @mixin circle($c-size) {
-    background-color: $background-main;
-    height: $c-size;
-    width: $c-size;
-    text-align: center;
-    line-height: $c-size;
-    border-radius: 100%;
-    color: $secondary-font-color;
+  background-color: $background-main;
+  height: $c-size;
+  width: $c-size;
+  text-align: center;
+  line-height: $c-size;
+  border-radius: 100%;
+  color: $secondary-font-color;
 }

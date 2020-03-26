@@ -1,3 +1,4 @@
+/* colors for filter */
 .t-center {
   text-align: center; }
 
@@ -14,10 +15,10 @@
   padding: 0; }
 
 .p-1 {
-  padding: .25em; }
+  padding: 0.25em; }
 
 .p-2 {
-  padding: .5em; }
+  padding: 0.5em; }
 
 .p-3 {
   padding: 1em; }
@@ -32,10 +33,10 @@
   padding-top: 0; }
 
 .pt-1 {
-  padding-top: .25em; }
+  padding-top: 0.25em; }
 
 .pt-2 {
-  padding-top: .5em; }
+  padding-top: 0.5em; }
 
 .pt-3 {
   padding-top: 1em; }
@@ -50,10 +51,10 @@
   padding-bottom: 0; }
 
 .pb-1 {
-  padding-bottom: .25em; }
+  padding-bottom: 0.25em; }
 
 .pb-2 {
-  padding-bottom: .5em; }
+  padding-bottom: 0.5em; }
 
 .pb-3 {
   padding-bottom: 1em; }
@@ -68,10 +69,10 @@
   padding-right: 0; }
 
 .pr-1 {
-  padding-right: .25em; }
+  padding-right: 0.25em; }
 
 .pr-2 {
-  padding-right: .5em; }
+  padding-right: 0.5em; }
 
 .pr-3 {
   padding-right: 1em; }
@@ -86,10 +87,10 @@
   padding-left: 0; }
 
 .pl-1 {
-  padding-left: .25em; }
+  padding-left: 0.25em; }
 
 .pl-2 {
-  padding-left: .5em; }
+  padding-left: 0.5em; }
 
 .pl-3 {
   padding-left: 1em; }
@@ -104,10 +105,10 @@
   margin: 0; }
 
 .m-1 {
-  margin: .25em; }
+  margin: 0.25em; }
 
 .m-2 {
-  margin: .5em; }
+  margin: 0.5em; }
 
 .m-3 {
   margin: 1em; }
@@ -122,10 +123,10 @@
   margin-top: 0; }
 
 .mt-1 {
-  margin-top: .25em; }
+  margin-top: 0.25em; }
 
 .mt-2 {
-  margin-top: .5em; }
+  margin-top: 0.5em; }
 
 .mt-3 {
   margin-top: 1em; }
@@ -140,10 +141,10 @@
   margin-bottom: 0; }
 
 .mb-1 {
-  margin-bottom: .25em; }
+  margin-bottom: 0.25em; }
 
 .mb-2 {
-  margin-bottom: .5em; }
+  margin-bottom: 0.5em; }
 
 .mb-3 {
   margin-bottom: 1em; }
@@ -158,10 +159,10 @@
   margin-right: 0; }
 
 .mr-1 {
-  margin-right: .25em; }
+  margin-right: 0.25em; }
 
 .mr-2 {
-  margin-right: .5em; }
+  margin-right: 0.5em; }
 
 .mr-3 {
   margin-right: 1em; }
@@ -176,10 +177,10 @@
   margin-left: 0; }
 
 .ml-1 {
-  margin-left: .25em; }
+  margin-left: 0.25em; }
 
 .ml-2 {
-  margin-left: .5em; }
+  margin-left: 0.5em; }
 
 .ml-3 {
   margin-left: 1em; }
@@ -217,8 +218,8 @@ img {
   background: #d3d3d3;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s; }
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s; }
 
 .slider-input:hover {
   opacity: 1; }
@@ -228,13 +229,13 @@ img {
   appearance: none;
   width: 25px;
   height: 25px;
-  background: #4CAF50;
+  background: #4caf50;
   cursor: pointer; }
 
 .slider-input::-moz-range-thumb {
   width: 25px;
   height: 25px;
-  background: #4CAF50;
+  background: #4caf50;
   cursor: pointer; }
 
 .slider {
@@ -361,10 +362,10 @@ footer h6 {
   padding: 0; }
 
 .p-1 {
-  padding: .25em; }
+  padding: 0.25em; }
 
 .p-2 {
-  padding: .5em; }
+  padding: 0.5em; }
 
 .p-3 {
   padding: 1em; }
@@ -379,10 +380,10 @@ footer h6 {
   padding-top: 0; }
 
 .pt-1 {
-  padding-top: .25em; }
+  padding-top: 0.25em; }
 
 .pt-2 {
-  padding-top: .5em; }
+  padding-top: 0.5em; }
 
 .pt-3 {
   padding-top: 1em; }
@@ -397,10 +398,10 @@ footer h6 {
   padding-bottom: 0; }
 
 .pb-1 {
-  padding-bottom: .25em; }
+  padding-bottom: 0.25em; }
 
 .pb-2 {
-  padding-bottom: .5em; }
+  padding-bottom: 0.5em; }
 
 .pb-3 {
   padding-bottom: 1em; }
@@ -415,10 +416,10 @@ footer h6 {
   padding-right: 0; }
 
 .pr-1 {
-  padding-right: .25em; }
+  padding-right: 0.25em; }
 
 .pr-2 {
-  padding-right: .5em; }
+  padding-right: 0.5em; }
 
 .pr-3 {
   padding-right: 1em; }
@@ -433,10 +434,10 @@ footer h6 {
   padding-left: 0; }
 
 .pl-1 {
-  padding-left: .25em; }
+  padding-left: 0.25em; }
 
 .pl-2 {
-  padding-left: .5em; }
+  padding-left: 0.5em; }
 
 .pl-3 {
   padding-left: 1em; }
@@ -451,10 +452,10 @@ footer h6 {
   margin: 0; }
 
 .m-1 {
-  margin: .25em; }
+  margin: 0.25em; }
 
 .m-2 {
-  margin: .5em; }
+  margin: 0.5em; }
 
 .m-3 {
   margin: 1em; }
@@ -469,10 +470,10 @@ footer h6 {
   margin-top: 0; }
 
 .mt-1 {
-  margin-top: .25em; }
+  margin-top: 0.25em; }
 
 .mt-2 {
-  margin-top: .5em; }
+  margin-top: 0.5em; }
 
 .mt-3 {
   margin-top: 1em; }
@@ -487,10 +488,10 @@ footer h6 {
   margin-bottom: 0; }
 
 .mb-1 {
-  margin-bottom: .25em; }
+  margin-bottom: 0.25em; }
 
 .mb-2 {
-  margin-bottom: .5em; }
+  margin-bottom: 0.5em; }
 
 .mb-3 {
   margin-bottom: 1em; }
@@ -505,10 +506,10 @@ footer h6 {
   margin-right: 0; }
 
 .mr-1 {
-  margin-right: .25em; }
+  margin-right: 0.25em; }
 
 .mr-2 {
-  margin-right: .5em; }
+  margin-right: 0.5em; }
 
 .mr-3 {
   margin-right: 1em; }
@@ -523,10 +524,10 @@ footer h6 {
   margin-left: 0; }
 
 .ml-1 {
-  margin-left: .25em; }
+  margin-left: 0.25em; }
 
 .ml-2 {
-  margin-left: .5em; }
+  margin-left: 0.5em; }
 
 .ml-3 {
   margin-left: 1em; }
@@ -564,8 +565,8 @@ img {
   background: #d3d3d3;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s; }
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s; }
 
 .slider-input:hover {
   opacity: 1; }
@@ -575,13 +576,13 @@ img {
   appearance: none;
   width: 25px;
   height: 25px;
-  background: #4CAF50;
+  background: #4caf50;
   cursor: pointer; }
 
 .slider-input::-moz-range-thumb {
   width: 25px;
   height: 25px;
-  background: #4CAF50;
+  background: #4caf50;
   cursor: pointer; }
 
 .logo img {
@@ -630,7 +631,7 @@ h4 {
   text-align: center; }
 
 .user-post {
-  background-color: #ffffff; }
+  background-color: #fff; }
 
 .icon {
   height: 22px;
@@ -729,7 +730,7 @@ aside {
 .amout-opt button {
   border-radius: 5000px;
   width: 4em;
-  margin: 0 .5em; }
+  margin: 0 0.5em; }
 
 .item-opt div {
   grid-column: span 6; }
@@ -760,7 +761,7 @@ iframe {
   text-decoration: none;
   color: #000;
   background-color: #fcb7e7;
-  padding: .4em 2em;
+  padding: 0.4em 2em;
   border-radius: 5000px; }
 
 .heart-like {
@@ -821,7 +822,7 @@ iframe {
 /* mobile */
 @media only screen and (min-width: 320px) and (max-width: 998px) {
   .responsive-p {
-    padding: 2em .5em 2em .5em; }
+    padding: 2em 0.5em 2em 0.5em; }
   .text-center-sm {
     text-align: center; }
   .responsive-p p {
@@ -952,4 +953,6 @@ iframe {
     margin-top: -70px; }
   .slider {
     background-size: 175% 75%;
-    background-position: 65% 100%; } }
+    background-position: 65% 100%; }
+  h2 {
+    font-size: 3em; } }

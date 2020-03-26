@@ -1,226 +1,222 @@
 .logo img {
-    width: 25%;;
+  width: 25%;;
 }
 
 .product-item button {
-    border-radius: 5000px;
-    padding: 0 1em;
+  border-radius: 5000px;
+  padding: 0 1em;
 }
 
 .price {
-    line-height: 40px;
+  line-height: 40px;
 }
 
 footer {
-    grid-gap: 10px;
+  grid-gap: 10px;
 }
 
 .signature {
-    font-family: 'Euphoria Script', cursive;
-    font-size: 1.5em;
+  font-family: 'Euphoria Script', cursive;
+  font-size: 1.5em;
 }
 
 footer .sitemap {
-    grid-column: span 6;
-    text-align: left;
+  grid-column: span 6;
+  text-align: left;
 }
 
 footer div:nth-child(3) {
-    @include flex(wrap);
+  @include flex(wrap);
 }
 
 h1 {
-    font-size: 4rem;
-    font-family: 'Euphoria Script', cursive;
-    color: #fff;
+  font-size: 4rem;
+  font-family: 'Euphoria Script', cursive;
+  color: #fff;
 }
 
 h2 {
-    font-size: 3rem;
-    font-family: 'Allura', cursive;
+  font-size: 3rem;
+  font-family: 'Allura', cursive;
 }
 
 h3 {
-    font-size: 2rem;
-    font-family: 'Allura', cursive;
+  font-size: 2rem;
+  font-family: 'Allura', cursive;
 }
 
 h4 {
-    font-size: 4rem;
-    font-family: 'Allura', cursive;
+  font-size: 4rem;
+  font-family: 'Allura', cursive;
 }
 
 .product-item {
-    text-align: center;
+  text-align: center;
 }
 
 .user-post {
-    background-color: #ffffff;
+  background-color: #fff;
 }
 
 .icon {
-    height: 22px;
-    width: 22px;
+  height: 22px;
+  width: 22px;
 }
 
 h5 .fa-heart {
-    text-align: left;
-    width: 100%;
+  text-align: left;
+  width: 100%;
 }
 
 .feature span {
-    @include circle(60px);
+  @include circle(60px);
 }
 
 .product-item i {
-    color: $accent-font-color;
+  color: $accent-font-color;
 }
 
 .col-grow button {
-    background-color: $btn-primary-color;
-    border-radius: 5000px;
-    padding: 1em 3em;
-    color: $primary-font-color;
+  background-color: $btn-primary-color;
+  border-radius: 5000px;
+  padding: 1em 3em;
+  color: $primary-font-color;
 }
 
 .eshop {
-    background-color: $background-main;
+  background-color: $background-main;
 }
 
 .sticky-scroll {
-    height: calc(100vh - 50px);
-    overflow: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    scroll-behavior: smooth;
+  height: calc(100vh - 50px);
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 
 .shop h2 {
-    font-size: 2.75em;
+  font-size: 2.75em;
 }
 
 fieldset {
-    display: flex; 
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 fieldset label {
-    width: 100%;
+  width: 100%;
 }
 
 fieldset input {
-    width: 43%;
-    margin-left: 3px;
+  width: 43%;
+  margin-left: 3px;
 }
 
 .color-filter {
-    display: flex;
+  display: flex;
 }
 
 .fieldset h6 {
-    width: 100%;
+  width: 100%;
 }
 
 .category-filter-title {
-    width: 100%;
+  width: 100%;
 }
 
-
 .checkbox {
-    width: 10%;
-    margin-bottom: 15px;
+  width: 10%;
+  margin-bottom: 15px;
 }
 
 .category-label {
-    width: 80%;
-    padding-top: 5px;
-    margin-bottom: 15px;
+  width: 80%;
+  padding-top: 5px;
+  margin-bottom: 15px;
 }
 
 .color-filter li {
-    border-radius: 100%;
-    height: 20px;
-    width: 20px;
-    margin: 0 5px;
-    border: 1px solid rgb(170, 170, 170);
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  border: 1px solid rgb(170, 170, 170);
 }
 
 .color-filter li:nth-child(1) {
-    background-color: $color-filters-1;
+  background-color: $color-filters-1;
 }
 
 .color-filter li:nth-child(2) {
-    background-color: $color-filters-2;
+  background-color: $color-filters-2;
 }
 
 .color-filter li:nth-child(3) {
-    background-color: $color-filters-3;
+  background-color: $color-filters-3;
 }
 
 .color-filter li:nth-child(4) {
-    background-color: $color-filters-4;
+  background-color: $color-filters-4;
 }
 
 aside {
-    background-color: $background-alt;
+  background-color: $background-alt;
 }
-
 
 /* products page */
 
 .amout-opt {
-    display: flex;
+  display: flex;
 }
 
 .amout-opt button {
-    border-radius: 5000px;
-    width: 4em;
-    margin: 0 .5em;
+  border-radius: 5000px;
+  width: 4em;
+  margin: 0 0.5em;
 }
 
 .item-opt div {
-    @include span-col(6);
+  @include span-col(6);
 }
 
 .amout-opt .tag {
-    background-color: $background-main;
-    border-radius: 100%;
-    height: 35px;
-    width: 35px;
-    line-height: 35px;
-    color: $secondary-font-color;
+  background-color: $background-main;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  color: $secondary-font-color;
 }
 
 .item-details {
-    padding: 3em 5em 0 5em;
+  padding: 3em 5em 0 5em;
 }
 
 .item-details img {
-    width: 90%;
+  width: 90%;
 }
 
 /* map n footer */
 
 iframe {
-    grid-column: span 12;
-    width: 100%;
+  grid-column: span 12;
+  width: 100%;
 }
 
 .btn {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    color: $primary-font-color;
-    background-color: $btn-primary-color;
-    padding: .4em 2em;
-    border-radius: 5000px;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: $primary-font-color;
+  background-color: $btn-primary-color;
+  padding: 0.4em 2em;
+  border-radius: 5000px;
 }
 
 .heart-like {
-    width: 100%;
-    text-align: left;
-    display: inline-block;
+  width: 100%;
+  text-align: left;
+  display: inline-block;
 }
-
-
