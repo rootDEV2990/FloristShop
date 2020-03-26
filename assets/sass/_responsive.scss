@@ -1,10 +1,46 @@
-@media only screen and (min-width: 999px) and (max-width: 1920px) {
+@media only screen and (min-width: 1024px) and (max-width: 1920px) {
   .responsive-p {
     padding: 5em 6em;
   }
 
   .p-lg-5 {
     padding-bottom: 2.5em;
+  }
+
+  .slider {
+    background-size: 44% 93%;
+  }
+
+  .comment-heading h4 {
+    padding-top: 0.5em;   
+    padding-bottom: 0.25em;
+    margin-top: 0.25em;
+  }
+
+  .top-picks .feature:nth-child(2) img {
+    width: 75%;
+  }
+
+  .top-picks .feature:nth-child(3),
+  .top-picks .feature:nth-child(4) {
+    text-align: right;
+  }
+
+  .top-picks .feature:nth-child(3) img,
+  .top-picks .feature:nth-child(4) img {
+    width: 60%;
+  }
+
+  .top-picks .feature:nth-child(3) span,
+  .top-picks .feature:nth-child(4) span {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
   }
 
   .top-picks .feature:nth-child(2) {
@@ -57,6 +93,21 @@
   }
 
   /* aside */
+  .sticky-scroll {
+    height: 696px;
+    overflow: none;
+  }
+
+  .shop {
+    height: 850px;
+  }
+
+  aside {
+    position: relative;
+    top: 128px;
+    margin: 0 2em;
+    height: 694px;
+  }
 
   .shop aside {
     @include span-col(3);
@@ -66,9 +117,13 @@
     @include span-col(9);
   }
 
+  .item-opt h6 {
+    font-weight: 600;
+  }
+
   /* detils pg */
 
-  .item-details div {
+  .item-details .feat-details {
     grid-column: span 6;
     margin-top: 3em;
   }
@@ -91,11 +146,25 @@
   footer div:nth-child(1) {
     margin-top: 1.5em;
   }
+
+  .flower-eshop .comments {
+    padding: 5em 6em;
+  }
+
+  .shop .responsive-p {
+    padding: 5em 2em 0 0;
+  }
+
+  /* poducts page */
+
+  .item-details {
+    padding: 6em 15em 0 15em;
+  }
 }
 
 /* mobile */
 
-@media only screen and (min-width: 320px) and (max-width: 998px) {
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
   .responsive-p {
     padding: 2em 0.5em 2em 0.5em;
   }

@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
         <!-- Style CSS for universal browser -->
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/min.style.css">
     </head>
     <body>
         <header class="menu-bar eshop">
@@ -35,23 +35,24 @@
         <main class="flower-eshop">
             <div class="shop grid">
                 <aside class="pl-4 pr-4">
-                    <h2 class="mt-4">Products</h2>
+                    <h2 class="mt-1">Products</h2>
                     <form>
                         <fieldset>
-                            <label class="pt-3 pb-3">Filter</label>
+                            <label class="pt-2 bold">Filter</label>
                             <div class="slider-bar">
                                 <input type="range" min="1" max="100" value="50" class="slider-input" id="myRange">
                             </div>
                             <input class="text-filter" type="text" placeholder="Min Price">
                             <input class="text-filter" type="text" placeholder="Max Price">
-                            <label class="pt-3 pb-3">Color</label>
-                            <ul class="color-filter">
-                                <li class="p-4"></li>
-                                <li class="p-4"></li>
-                                <li class="p-4"></li>
-                                <li class="p-4"></li>
+                            <label class="pt-3 pb-3 bold">Color</label>
+                            <ul class="color-filter-main">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
                             </ul>
-                            <h6 class="category-filter-title pt-3 pb-3">Style</h6>
+                            <h6 class="category-filter-title pt-3 pb-3 bold">Style</h6>
                             <br>
                             <input class="checkbox" type="checkbox">
                             <label class="category-label">Type 1</label>
@@ -65,7 +66,7 @@
                             <input class="checkbox" type="checkbox">
                             <label class="category-label">Type 4</label>
                             <br>
-                            <h6 class="category-filter-title pt-3 pb-3">Accessories</h6>
+                            <h6 class="category-filter-title pt-3 pb-3 bold">Accessories</h6>
                             <br>
                             <input class="checkbox" type="checkbox">
                             <label class="category-label">Vase</label>
@@ -162,14 +163,11 @@
                         <br>
                         <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
                     </div>
-                    <div class="col-grow t-center mt-4 pt-2 mb-4 more-btn">
-                        <button>Get a Quote</button>
-                    </div>
                 </section>
             </div>
             <section class="comments grid responsive-p pt-5">
-                <h2 class="col-grow text-center-sm pb-2">Customers</h2>
-                <nav class="controls">
+                <h2 class="col-grow text-center-sm pb-2 white">Customers</h2>
+                <nav class="controls white">
                     <a>&lt;</a>
                     <a>&gt;</a>
                 </nav>
@@ -201,7 +199,7 @@
                     </div>
                     <p class="pl-5 pr-4 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam nemo, placeat aperiam eveniet nisi quia odit officiis vero cum deserunt numquam repudiandae cumque! Ullam, quas? Fugiat nemo placeat cum, quidem quas maiores voluptatibus qui autem, necessitatibus vitae fuga animi hic assumenda omnis similique ullam quibusdam iusto iste, dolor sunt .</p>
                 </article>
-                <div class="controls">
+                <div class="controls white">
                     <span>&#8226;</span>
                     <span>&#8226;</span>
                 </div>
