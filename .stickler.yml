@@ -4,6 +4,6 @@ linters:
     ignore: 'box-model,ids'
 files:
   ignore: 
-    - 'css/reset.css*'
-    - 'css/min.style.css*'
-    - 'sass/*.scss*'
+    - 'assets/css/reset.css*'
+    - 'assets/css/min.style.css*'
+    - 'assets/sass/*.scss*'
