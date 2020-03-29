@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+        <title>eShop - Responsive Florist Shop</title>
+        <!-- Reset CSS for universal browser -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <!-- Font import from google -->
+        <link href="https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">  
+        <!-- Style CSS for universal browser -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/min.style.css">
+    </head>
+    <body>
+        <header class="menu-bar eshop">
+            <figure class="logo">
+                <a href="index.html">
+                    <img src="./assets/img/logo.png" alt="logo of shop">
+                </a>
+            </figure>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-i ">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-i">
+                        <a href="eshop.html">eShop</a>
+                    </li>
+                    <li class="nav-i">
+                        <a href="index.html"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="title-banner">
+            <h1 class="black">Bouquets</h1>
+            <h3 class="pt-1">To Say I Love You</h3>
+        </section>
+        <main class="shop-item">
+            <div class="item-details grid pt-5">
+                <div class="feat-details">
+                    <ul class="amout-opt j-end">
+                        <li class="p-2 tag">-5%</li>
+                    </ul>
+                    <figure>
+                        <img src="./assets/img/demo-1.png" alt="picture of bouquet">
+                    </figure>
+                    <div class="amout-opt j-between">
+                        <ul class="amout-opt">
+                            <li><a class="pl-1 pr-1">&lt;</a></li>
+                            <li><a class="pl-1 pr-1">&gt;</a></li>
+                        </ul>
+                        <h5>Red Roses</h5>
+                    </div>
+                </div>
+                <section class="add-social">
+                    <span class="heart-like"><i class="far fa-heart"></i></span>
+                    <h2>Product title</h2>
+                    <h6 class="pt-3 pb-2 bold">Amount</h6>
+                    <ul class="amout-opt">
+                        <li>
+                            <button class="btn-outlined">9</button>
+                        </li>
+                        <li>
+                            <button class="btn-outlined">15</button>
+                        </li>
+                        <li>
+                            <button class="btn-outlined">21</button>
+                        </li>
+                    </ul>
+                    <div class="grid item-opt">
+                        <div>
+                            <h6 class="pt-3 pb-3">Color</h6>
+                            <ul class="color-filter">
+                                <li class="p-1"></li>
+                                <li class="p-1"></li>
+                                <li class="p-1"></li>
+                                <li class="p-1"></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 class="category-filter-title pt-3 pb-1">Style</h6>
+                            <br>
+                            <input class="checkbox" type="checkbox">
+                            <label>Type1</label>
+                            <input class="checkbox" type="checkbox">
+                            <label>Type2</label>
+                        </div>
+                        <div>
+                            <h6 class="pt-1">sku: 4654789</h6>
+                        </div>
+                        <div>
+                            <a class="btn" href="eshop.html">Add to Cart</a>    
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+           
+            <section class="products grid responsive-p pt-5 mt-5">
+                <h2 class="col-grow text-center-sm pb-2">Products</h2>
+                <div class="product-item">
+                    <span class="heart-like"><i class="far fa-heart"></i></span>
+                    <figure>
+                        <img src="./assets/img/product-1.png" alt="Product item 1 disc.">
+                    </figure>
+                    <button class="btn-outlined">9</button>
+                    <button class="btn-outlined">15</button>
+                    <button class="btn-outlined">21</button>
+                    <br>
+                    <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="product-item">
+                    <span class="heart-like"><i class="far fa-heart"></i></span>
+                    <figure>
+                        <img src="./assets/img/product-2.png" alt="Product item 2 disc.">
+                    </figure>
+                    <button class="btn-outlined">9</button>
+                    <button class="btn-outlined">15</button>
+                    <button class="btn-outlined">21</button>
+                    <br>
+                    <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="product-item resp-hidden">
+                    <span class="heart-like"><i class="far fa-heart"></i></span>
+                    <figure>
+                        <img src="./assets/img/product-3.png" alt="Product item 3 disc.">
+                    </figure>
+                    <button class="btn-outlined">9</button>
+                    <button class="btn-outlined">15</button>
+                    <button class="btn-outlined">21</button>
+                    <br>
+                    <span class="price">$19.99 <i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </section>
+            <section class="comments grid responsive-p pt-5">
+                <h2 class="col-grow text-center-sm pb-2 white">Customers</h2>
+                <nav class="controls white">
+                    <a>&lt;</a>
+                    <a>&gt;</a>
+                </nav>
+                <article class="user-post p-lg-5 mr-2 ml-2 mt-2 mb-2">
+                    <div class="user-info grid">
+                        <figure class="ml-5 mt-3 text-center-sm">
+                            <img src="./assets/img/user-1.png" alt="User_img 1">
+                        </figure>
+                        <div class="mt-4 text-center-sm comment-heading">
+                            <h4>User Name</h4>
+                            <h5>Quote from Article</h5>
+                            <img class="icon" src="./assets/img/icon-vk.png" alt="V.K. Icon.">
+                            <img class="icon" src="./assets/img/icon-f.png" alt="Facebook Icon.">
+                        </div>
+                    </div>
+                    <p class="pl-5 pr-4 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam nemo, placeat aperiam eveniet nisi quia odit officiis vero cum deserunt numquam repudiandae cumque! Ullam, quas? Fugiat nemo placeat cum, quidem quas maiores voluptatibus qui autem, necessitatibus vitae fuga animi hic assumenda omnis similique ullam quibusdam iusto iste, dolor sunt .</p>
+                </article>
+                <article class="user-post p-lg-5 ml-2 mr-2 mt-2 mb-2">
+                    <div class="user-info grid">
+                        <figure class="ml-5 mt-3 text-center-sm">
+                            <img src="./assets/img/user-2.png" alt="User_img 2">
+                        </figure>
+                        <div class="mt-4 text-center-sm comment-heading">
+                            <h4>User Name</h4>
+                            <h5>Quote from Article</h5>
+                            <img class="icon" src="./assets/img/icon-vk.png" alt="V.K. Icon.">
+                            <img class="icon" src="./assets/img/icon-f.png" alt="Facebook Icon.">
+                        </div>
+                    </div>
+                    <p class="pl-5 pr-4 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquam nemo, placeat aperiam eveniet nisi quia odit officiis vero cum deserunt numquam repudiandae cumque! Ullam, quas? Fugiat nemo placeat cum, quidem quas maiores voluptatibus qui autem, necessitatibus vitae fuga animi hic assumenda omnis similique ullam quibusdam iusto iste, dolor sunt .</p>
+                </article>
+                <div class="controls white">
+                    <span>&#8226;</span>
+                    <span>&#8226;</span>
+                </div>
+            </section>
+            <section class="grid">
+                <h6 class="clip">Map of physical location with google maps.</h6>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.6946704368024!2d-105.24155568634696!3d20.600523007638035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421454b2f06f169%3A0x882ebcec1babc084!2sMuelle%20de%20Playa%20Los%20Muertos!5e0!3m2!1ses-419!2smx!4v1585140024086!5m2!1ses-419!2smx" width="600" height="450" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </section>
+        </main>
+        <footer class="grid pt-5 pb-2">
+            <div>
+                <a class="btn" href="mailto:website.dev@icloud.com">Contact Me</a>
+            </div>
+            <div class="grid">
+                <nav class="sitemap">
+                    <ul>
+                        <li>
+                            Sitemap
+                        </li>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="eshop.html">Products List</a>
+                        </li>
+                        <li>
+                            <a href="item.html">Products Details</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="sitemap">
+                    <ul>
+                        <li>Layout &copy; Michael D</li>
+                        <li>
+                            <a href="https://www.behance.net/gallery/69329213/Flower-e-shop" target="_blank">Flower eShop</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="signature">
+                <h6>Responsive &copy; rootDEV2990</h6>
+                <br>
+                <ul class="amout-opt j-center">
+                    <li class="p-2">
+                        <a href="https://raw.githack.com/rootDEV2990/devPlayground/master/index.html" target="_blank"><i class="fas fa-globe"></i></a>
+                    </li>
+                    <li class="p-2">
+                        <a href="https://github.com/rootDEV2990" target="_blank"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="p-2">
+                        <a href="https://www.linkedin.com/in/miguel-enciso-6474741a1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="p-2">
+                        <a href="https://twitter.com/m29902" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <!-- Social icons from fontawesome -->
+	    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </body>
+</html>

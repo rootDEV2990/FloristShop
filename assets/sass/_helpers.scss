@@ -1,0 +1,339 @@
+@mixin flex($wrap) {
+  display: flex;
+  flex-wrap: $wrap;
+}
+
+@mixin width($width) {
+  width: $width;
+}
+
+@mixin justify($j-content) {
+  justify-content: $j-content;
+}
+
+@mixin align($a-content) {
+  align-self: $a-content;
+}
+
+@mixin text($t-align) {
+  text-align: $t-align;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-end {
+  justify-content: flex-end;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 0.25em;
+}
+
+.p-2 {
+  padding: 0.5em;
+}
+
+.p-3 {
+  padding: 1em;
+}
+
+.p-4 {
+  padding: 1.5em;
+}
+
+.p-5 {
+  padding: 3em;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.pt-1 {
+  padding-top: 0.25em;
+}
+
+.pt-2 {
+  padding-top: 0.5em;
+}
+
+.pt-3 {
+  padding-top: 1em;
+}
+
+.pt-4 {
+  padding-top: 1.5em;
+}
+
+.pt-5 {
+  padding-top: 3em;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pb-1 {
+  padding-bottom: 0.25em;
+}
+
+.pb-2 {
+  padding-bottom: 0.5em;
+}
+
+.pb-3 {
+  padding-bottom: 1em;
+}
+
+.pb-4 {
+  padding-bottom: 1.5em;
+}
+
+.pb-5 {
+  padding-bottom: 3em;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pr-1 {
+  padding-right: 0.25em;
+}
+
+.pr-2 {
+  padding-right: 0.5em;
+}
+
+.pr-3 {
+  padding-right: 1em;
+}
+
+.pr-4 {
+  padding-right: 1.5em;
+}
+
+.pr-5 {
+  padding-right: 3em;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-1 {
+  padding-left: 0.25em;
+}
+
+.pl-2 {
+  padding-left: 0.5em;
+}
+
+.pl-3 {
+  padding-left: 1em;
+}
+
+.pl-4 {
+  padding-left: 1.5em;
+}
+
+.pl-5 {
+  padding-left: 3em;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 0.25em;
+}
+
+.m-2 {
+  margin: 0.5em;
+}
+
+.m-3 {
+  margin: 1em;
+}
+
+.m-4 {
+  margin: 1.5em;
+}
+
+.m-5 {
+  margin: 3em;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-1 {
+  margin-top: 0.25em;
+}
+
+.mt-2 {
+  margin-top: 0.5em;
+}
+
+.mt-3 {
+  margin-top: 1em;
+}
+
+.mt-4 {
+  margin-top: 1.5em;
+}
+
+.mt-5 {
+  margin-top: 3em;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-1 {
+  margin-bottom: 0.25em;
+}
+
+.mb-2 {
+  margin-bottom: 0.5em;
+}
+
+.mb-3 {
+  margin-bottom: 1em;
+}
+
+.mb-4 {
+  margin-bottom: 1.5em;
+}
+
+.mb-5 {
+  margin-bottom: 3em;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-1 {
+  margin-right: 0.25em;
+}
+
+.mr-2 {
+  margin-right: 0.5em;
+}
+
+.mr-3 {
+  margin-right: 1em;
+}
+
+.mr-4 {
+  margin-right: 1.5em;
+}
+
+.mr-5 {
+  margin-right: 3em;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.ml-1 {
+  margin-left: 0.25em;
+}
+
+.ml-2 {
+  margin-left: 0.5em;
+}
+
+.ml-3 {
+  margin-left: 1em;
+}
+
+.ml-4 {
+  margin-left: 1.5em;
+}
+
+.ml-5 {
+  margin-left: 3em;
+}
+
+.clip {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+img {
+  width: 80%;
+}
+
+.black {
+  color: #000;
+}
+
+.white {
+  color: $secondary-font-color;
+}
+
+.slider-bar {
+  width: 98%;
+}
+
+.slider-input {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 86%;
+  height: 8px;
+  background: #86d14b;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider-input:hover {
+  opacity: 1;
+}
+
+.slider-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.slider-input::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: 600;
+}

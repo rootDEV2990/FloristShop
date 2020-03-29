@@ -2,7 +2,7 @@
 
 >  Welcome to my first HTML CSS/SASS project. I will be using a pre-processor to edit a custom grid layout for a florist shop. Site is mobile friendly so feel free to use and even improve.
 
-![screenshot](./img/app_screenshot.png)
+![screenshot](./assets/img/app_screenshot.png)
 
 Additional description about the project and its features.
 
@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-https://raw.githack.com/rootDEV2990/FloristShop/master/index.html
+https://raw.githack.com/rootDEV2990/FloristShop/FrontEnd/index.html
 
 ## Getting Started
 
